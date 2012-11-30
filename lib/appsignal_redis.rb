@@ -1,4 +1,5 @@
 require 'redis'
+require 'active_support'
 
 module Appsignal
   module Redis
