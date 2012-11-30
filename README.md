@@ -1,3 +1,15 @@
-[Appsignal](https://www.appsignal.com) Redis
+AppSignal Redis
 ===============
-This gem is required when using Redis. It adds Redis query instrumentation, allowing you to see the impact of Redis queries made in the monitored app.
+
+`appsignal-redis` allows AppSignal clients to gain insight in database queries
+that use the [redis-rb](https://github.com/redis/redis-rb) driver.
+
+For more information, visit:
+
+* [AppSignal website](http://appsignal.com)
+* [AppSignal client gem](https://github.com/80beans/appsignal)
+
+Licence
+=======
+
+See [LICENCE](https://github.com/80beans/appsignal-redis/blob/master/LICENSE)
