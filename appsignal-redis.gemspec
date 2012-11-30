@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
 
   s.require_path  = 'lib'
 
-  s.add_dependency 'appsignal'
+  s.add_dependency 'appsignal', '~> 0'
   s.add_dependency 'redis', '~> 3.0.2'
   s.add_dependency 'active_support', '~>3.0.0'
 
