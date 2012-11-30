@@ -3,7 +3,7 @@ $:.push File.expand_path('../lib', __FILE__)
 require 'appsignal_redis/version'
 
 Gem::Specification.new do |s|
-  s.name          = 'appsignal_redis'
+  s.name          = 'appsignal-redis'
   s.version       = Appsignal::Redis::VERSION
   s.platform      = Gem::Platform::RUBY
   s.authors       = ['Steven Weller', 'Ron Cadier']
