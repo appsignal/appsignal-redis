@@ -18,7 +18,7 @@ module Appsignal
   end
 end
 
-::Redis::Client.class_eval do
+Redis::Client.class_eval do
   include Appsignal::Redis::Instrumentation
 
   alias_method :process_without_appsignal_instrumentation, :process
