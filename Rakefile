@@ -10,10 +10,7 @@ task :publish do
   NAME = 'appsignal-redis'
   VERSION_FILE = 'lib/appsignal_redis/version.rb'
 
-  unless ENV['EDITOR']
-    raise "$EDITOR should be set to an editor\n"\
-      'Note: It should not start a new process!'
-  end
+  raise '$EDITOR should be set' unless ENV['EDITOR']
 
   def build_and_push_gem
     puts '# Building gem'
