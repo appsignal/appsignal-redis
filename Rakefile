@@ -8,7 +8,7 @@ end
 
 task :publish do
   NAME = 'appsignal-redis'
-  VERSION_FILE = 'lib/appsignal_redis/version.rb'
+  VERSION_FILE = 'lib/appsignal-redis/version.rb'
 
   raise '$EDITOR should be set' unless ENV['EDITOR']
 

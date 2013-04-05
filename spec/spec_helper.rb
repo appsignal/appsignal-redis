@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'active_support/notifications'
-require 'appsignal_redis'
+require 'appsignal-redis'
 
 require 'pry'
 

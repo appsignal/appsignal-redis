@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path('../lib', __FILE__)
-require 'appsignal_redis/version'
+require 'appsignal-redis/version'
 
 Gem::Specification.new do |s|
   s.name          = 'appsignal-redis'
