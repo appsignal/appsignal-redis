@@ -11,6 +11,7 @@ For more information, visit:
 * [AppSignal client gem](https://github.com/appsignal/appsignal)
 
 [<img src="https://travis-ci.org/appsignal/appsignal-redis.png?branch=master"/>](http://travis-ci.org/appsignal/appsignal-redis)
+[<img src="https://codeclimate.com/github/appsignal/appsignal-redis.png"/>](https://codeclimate.com/github/appsignal/appsignal-redis)
 
 Licence
 =======
