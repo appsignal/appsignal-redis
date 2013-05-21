@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.authors       = ['Steven Weller', 'Ron Cadier']
   s.email         = %w{contact@appsignal.com}
 
-  s.homepage      = 'https://github.com/80beans/appsignal-redis'
+  s.homepage      = 'https://github.com/appsignal/appsignal-redis'
   s.summary       = 'Add instrument calls to redis.'\
                     'For use with Appsignal.'
   s.description   = ''
