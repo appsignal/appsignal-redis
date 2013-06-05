@@ -16,6 +16,10 @@ describe Redis do
     before { redis.set("mykey", "hello world") }
 
     it { should == {:query => [[:set, "mykey", "hello world"]]} }
+
+    it "should correctly set and get the key" do
+      redis.get("mykey").should == 'hello world'
+    end
   end
 
   context "get" do

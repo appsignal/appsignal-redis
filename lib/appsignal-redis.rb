@@ -7,10 +7,10 @@ module Appsignal
 
       private
 
-      def process_with_appsignal_instrumentation(commands)
+      def process_with_appsignal_instrumentation(commands, &block)
         ActiveSupport::Notifications.instrument(
           'query.redis', :query => commands) do
-            process_without_appsignal_instrumentation(commands)
+            process_without_appsignal_instrumentation(commands, &block)
           end
       end
 
