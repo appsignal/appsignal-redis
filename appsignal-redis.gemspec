@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
   s.email         = %w{contact@appsignal.com}
 
   s.homepage      = 'https://github.com/appsignal/appsignal-redis'
+  s.license       = 'MIT'
   s.summary       = 'Add instrument calls to redis.'\
                     'For use with Appsignal.'
   s.description   = ''
