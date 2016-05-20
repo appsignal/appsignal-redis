@@ -1,6 +1,8 @@
 AppSignal Redis
 ===============
 
+Only use this gem in combination with 0.x versions of the `appsignal` gem! It is not compatible with 1.0+.
+
 `appsignal-redis` allows AppSignal clients to gain insight in database queries
 that use the [redis-rb](https://github.com/redis/redis-rb) driver.
 
