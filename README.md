@@ -1,7 +1,11 @@
-AppSignal Redis
+AppSignal Redis [DEPRECATED]
 ===============
 
 Only use this gem in combination with 0.x versions of the `appsignal` gem! It is not compatible with 1.0+.
+
+Please use `gem "appsignal", "> 1"` in your `Gemfile` and remove any other `appsignal-*` gems you might have installed. Then run `bundle update appsignal`.
+
+----
 
 `appsignal-redis` allows AppSignal clients to gain insight in database queries
 that use the [redis-rb](https://github.com/redis/redis-rb) driver.
